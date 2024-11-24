@@ -1,6 +1,6 @@
 instrument { name = "BO indicator", overlay = true, icon = "indicators:BB" }
 
-period = input (20, "front.period", input.integer,  1)
+period = input (3, "front.period", input.integer,  1)
 devs   = input (1, "front.newind.stddev", input.integer, 1)
 
 overbought = input (1, "front.overbought", input.double, -2, 2, 0.1, false)
