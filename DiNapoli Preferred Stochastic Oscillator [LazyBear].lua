@@ -1,7 +1,7 @@
 
 instrument { name = "DiNapoli Preferred Stochastic Oscillator [LazyBear]" }
 
-fk = 8
+fk = 18
 sk = 3
 sd = 3
 min_ = lowest(low, fk) 
